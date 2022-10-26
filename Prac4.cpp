@@ -14,7 +14,7 @@ struct Tree
     Tree(string key) { this->key = key; left = right = nullptr; }
 };
 
-//вывод дерева рямы обходом
+//вывод дерева прямым обходом
 void print_Tree(Tree* p, int level) {
     if (p)
     {
